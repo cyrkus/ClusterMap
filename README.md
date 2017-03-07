@@ -1,5 +1,5 @@
 # ClusterMap
-Creates map clustering using this [algorythm](https://robots.thoughtbot.com/how-to-handle-large-amounts-of-data-on-maps) ported into Swift.
+Creates map clustering using this [Algorithm](https://robots.thoughtbot.com/how-to-handle-large-amounts-of-data-on-maps) ported into Swift.
 
 To build a QuadTree first conform any data structure to `ClusterMapLocation`.
 
