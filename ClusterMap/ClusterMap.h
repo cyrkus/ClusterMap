@@ -16,6 +16,6 @@ FOUNDATION_EXPORT double ClusterMapVersionNumber;
 //! Project version string for ClusterMap.
 FOUNDATION_EXPORT const unsigned char ClusterMapVersionString[];
 
-#import "CoordinateQuadTree.h"
 #import "QuadTree.h"
+#import "CoordinateQuadTree.h"
 #import "Cluster.h"
