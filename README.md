@@ -7,6 +7,10 @@ ClusterMap is currently only available on iOS and requires 8.4
 
 #To install this framework
 
+Add Carthage files to .gitignore
+`#Carthage`
+`Carthage/Build`
+
 Check your Carthage Version to make sure Carthage is installed locally:
 `Carthage version`
 
