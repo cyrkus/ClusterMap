@@ -19,6 +19,19 @@ Open the Cartfile and add this as a dependency. (in OGDL):
 Update your project to include the framework:
 `Carthage update --platform iOS`
 
+Add the framework to 'Linked Frameworks and Libraries' in the Xcode Project by dragging and dropping the framework created in Carthage/Build/iOS/ClusterMap.framework
+
+Add this run Script
+`/usr/local/bin/carthage copy-frameworks`
+
+Add this input file to the run script
+`$(SRCROOT)/Carthage/Build/iOS/ClusterMap.framework`
+
+If Xcode has issues finding your framework Add
+`$(SRCROOT)/Carthage/Build/iOS`
+To 'Framework Search Paths' in Build Settings
+
+
 
 #To uses this framework
 To build a QuadTree first conform any data structure to `ClusterMapLocation`.
