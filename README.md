@@ -35,8 +35,6 @@ If Xcode has issues finding your framework Add
 `$(SRCROOT)/Carthage/Build/iOS`
 To 'Framework Search Paths' in Build Settings
 
-
-
 #To uses this framework
 To build a QuadTree first conform any data structure to `ClusterMapLocation`.
 

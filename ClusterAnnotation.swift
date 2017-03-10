@@ -9,6 +9,10 @@
 import MapKit
 import Foundation
 
+
+/*  
+ Does not support callouts currently.
+ **/
 @objc public class ClusterAnnotation: NSObject, MKAnnotation {
     dynamic public var coordinate: CLLocationCoordinate2D
     public var objectIDs: [String]!
